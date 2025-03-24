@@ -23,11 +23,17 @@ This guide will help you start the Simple Product Listing application using Go a
     cd cmd
     ```
 
-2. Start the application:
+2. Build the application:
 
     ```sh
-    go run main.go
+    go build main.go
     ```
+   
+3. Run the application:
 
-3. The application should now be running on `http://localhost:3000`.
+    ```sh
+    ./main
+    ```
+   
+4. The application should now be running on `http://localhost:3000`.
 
