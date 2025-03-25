@@ -6,6 +6,11 @@ This guide will help you start the Simple Product Listing application using Go a
 
 - Go installed on your machine (version 1.17+)
 - Git installed on your machine
+- Set JWT secret on your machine as an environment variable:
+
+    ```sh
+    JWT_SECRET=your_secret_here
+    ```
 
 ## Installation
 
